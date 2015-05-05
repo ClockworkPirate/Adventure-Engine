@@ -1,13 +1,13 @@
-package com.mguerrieri.mud.navigation;
+package com.guerrieri.mud.navigation;
 
 import java.util.ArrayList;
 
-import com.mguerrieri.mud.AbstractObject;
-import com.mguerrieri.mud.GameObject;
-import com.mguerrieri.mud.character.Player;
-import com.mguerrieri.mud.control.Verb;
-import com.mguerrieri.mud.inventory.Key;
-import com.mguerrieri.mud.io.AdventureLoader;
+import com.guerrieri.mud.AbstractObject;
+import com.guerrieri.mud.GameObject;
+import com.guerrieri.mud.character.Player;
+import com.guerrieri.mud.control.Verb;
+import com.guerrieri.mud.inventory.Key;
+import com.guerrieri.mud.io.AdventureLoader;
 
 /**
  * The <code>Path</code> class represents passages between areas. In practice, they link <code>Room</code> objects, allowing the player to move between them.

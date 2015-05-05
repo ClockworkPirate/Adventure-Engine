@@ -1,4 +1,4 @@
-package com.mguerrieri.mud.control;
+package com.guerrieri.mud.control;
 
 /**
  * An interface for objects that can parse text commands.

@@ -1,4 +1,4 @@
-package com.wedageeks_at_gmail.mud.ui;
+package com.guerrieri.mud.ui;
 
 /**
  * Defines an object that can receive user input and display text output.

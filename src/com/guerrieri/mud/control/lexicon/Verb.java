@@ -1,4 +1,4 @@
-package com.mguerrieri.mud.control;
+package com.guerrieri.mud.control.lexicon;
 
 /**
  * Represents an action which a <code>GameObject</code> may perform.

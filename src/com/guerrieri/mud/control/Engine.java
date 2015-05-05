@@ -1,9 +1,9 @@
-package com.mguerrieri.mud.control;
+package com.guerrieri.mud.control;
 
-import com.mguerrieri.mud.character.Player;
-import com.mguerrieri.mud.character.Status;
-import com.mguerrieri.mud.character.Status.StatusType;
-import com.mguerrieri.mud.navigation.Room;
+import com.guerrieri.mud.character.Player;
+import com.guerrieri.mud.character.Status;
+import com.guerrieri.mud.character.Status.StatusType;
+import com.guerrieri.mud.navigation.Room;
 
 /**
  * Takes input from the player and various objects, updates those objects accordingly

@@ -1,9 +1,9 @@
-package com.mguerrieri.mud;
+package com.guerrieri.mud;
 
-import com.mguerrieri.mud.character.Player;
-import com.mguerrieri.mud.control.Noun;
-import com.mguerrieri.mud.control.Verb;
-import com.mguerrieri.mud.navigation.Room;
+import com.guerrieri.mud.character.Player;
+import com.guerrieri.mud.control.Noun;
+import com.guerrieri.mud.control.Verb;
+import com.guerrieri.mud.navigation.Room;
 
 /**
  * An object of a class that implements this interface can be described and interacted with.

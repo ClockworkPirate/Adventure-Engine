@@ -1,11 +1,11 @@
-package com.mguerrieri.mud.inventory;
+package com.guerrieri.mud.inventory;
 
 import java.util.ArrayList;
 
-import com.mguerrieri.mud.AbstractObject;
-import com.mguerrieri.mud.GameObject;
-import com.mguerrieri.mud.character.Player;
-import com.mguerrieri.mud.control.Verb;
+import com.guerrieri.mud.AbstractObject;
+import com.guerrieri.mud.GameObject;
+import com.guerrieri.mud.character.Player;
+import com.guerrieri.mud.control.Verb;
 
 /**
  * Represents an item in the game world.

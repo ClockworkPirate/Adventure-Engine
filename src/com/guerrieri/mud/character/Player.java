@@ -1,13 +1,13 @@
-package com.mguerrieri.mud.character;
+package com.guerrieri.mud.character;
 
 import java.util.ArrayList;
 
-import com.mguerrieri.mud.GameObject;
-import com.mguerrieri.mud.control.Lexicon;
-import com.mguerrieri.mud.control.Noun;
-import com.mguerrieri.mud.control.Verb;
-import com.mguerrieri.mud.inventory.Item;
-import com.mguerrieri.mud.navigation.Room;
+import com.guerrieri.mud.GameObject;
+import com.guerrieri.mud.control.Lexicon;
+import com.guerrieri.mud.control.Noun;
+import com.guerrieri.mud.control.Verb;
+import com.guerrieri.mud.inventory.Item;
+import com.guerrieri.mud.navigation.Room;
 
 /**
  * The <code>Player</code> class represents the player character.

@@ -1,7 +1,7 @@
-package com.mguerrieri.mud;
+package com.guerrieri.mud;
 
-import com.mguerrieri.mud.control.Adventure;
-import com.mguerrieri.mud.io.AdventureLoader;
+import com.guerrieri.mud.control.Adventure;
+import com.guerrieri.mud.io.AdventureLoader;
 
 /**
  * Runs the adventure world contained in files "0" and "0InitText"

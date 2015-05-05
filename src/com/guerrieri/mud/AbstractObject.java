@@ -1,12 +1,12 @@
-package com.mguerrieri.mud;
+package com.guerrieri.mud;
 
 import java.util.ArrayList;
 import java.util.Hashtable;
 
-import com.mguerrieri.mud.character.Player;
-import com.mguerrieri.mud.control.Noun;
-import com.mguerrieri.mud.control.Verb;
-import com.mguerrieri.mud.navigation.Room;
+import com.guerrieri.mud.character.Player;
+import com.guerrieri.mud.control.Noun;
+import com.guerrieri.mud.control.Verb;
+import com.guerrieri.mud.navigation.Room;
 
 /**
  * An abstract class representing a basic <code>GameObject</code>.

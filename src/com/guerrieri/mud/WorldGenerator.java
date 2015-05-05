@@ -1,11 +1,11 @@
-package com.mguerrieri.mud;
+package com.guerrieri.mud;
 
-import com.mguerrieri.mud.character.Character;
-import com.mguerrieri.mud.inventory.Key;
-import com.mguerrieri.mud.inventory.Weapon;
-import com.mguerrieri.mud.io.AdventureLoader;
-import com.mguerrieri.mud.navigation.Path;
-import com.mguerrieri.mud.navigation.Room;
+import com.guerrieri.mud.character.Character;
+import com.guerrieri.mud.inventory.Key;
+import com.guerrieri.mud.inventory.Weapon;
+import com.guerrieri.mud.io.AdventureLoader;
+import com.guerrieri.mud.navigation.Path;
+import com.guerrieri.mud.navigation.Room;
 
 /**
  * Generates a world from the specified objects to the file "0"

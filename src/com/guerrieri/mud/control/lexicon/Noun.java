@@ -1,6 +1,6 @@
-package com.mguerrieri.mud.control;
+package com.guerrieri.mud.control.lexicon;
 
-import com.mguerrieri.mud.GameObject;
+import com.guerrieri.mud.GameObject;
 
 /**
  * Represents a name by which a <code>GameObject</code> may be called.

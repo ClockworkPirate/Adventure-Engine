@@ -1,6 +1,6 @@
-package com.mguerrieri.mud.inventory;
+package com.guerrieri.mud.inventory;
 
-import com.mguerrieri.mud.navigation.Path;
+import com.guerrieri.mud.navigation.Path;
 
 /**
  * Represents an <code>Item</code> that can make impassable <code>Path</code>s passable.

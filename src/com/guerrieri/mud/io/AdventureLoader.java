@@ -1,4 +1,4 @@
-package com.mguerrieri.mud.io;
+package com.guerrieri.mud.io;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -7,11 +7,11 @@ import java.io.IOException;
 import java.util.Scanner;
 
 import com.thoughtworks.xstream.XStream;
-import com.mguerrieri.mud.inventory.Item;
-import com.mguerrieri.mud.inventory.Key;
-import com.mguerrieri.mud.inventory.Weapon;
-import com.mguerrieri.mud.navigation.Path;
-import com.mguerrieri.mud.navigation.Room;
+import com.guerrieri.mud.inventory.Item;
+import com.guerrieri.mud.inventory.Key;
+import com.guerrieri.mud.inventory.Weapon;
+import com.guerrieri.mud.navigation.Path;
+import com.guerrieri.mud.navigation.Room;
 
 /**
  * Saves and loads <code>Room</code>s. Current implementation is fairly barebones, just saves anything that might be contained within a room.

@@ -1,6 +1,6 @@
-package com.mguerrieri.mud.character;
+package com.guerrieri.mud.character;
 
-import com.mguerrieri.mud.navigation.Path;
+import com.guerrieri.mud.navigation.Path;
 
 /**
  * A <code>Status</code> object represents a state that a player character can be in.

@@ -1,4 +1,4 @@
-package com.mguerrieri.mud.inventory;
+package com.guerrieri.mud.inventory;
 
 /**
  * Represents an <code>Item</code> that can be used to attack <code>Character</code>s.

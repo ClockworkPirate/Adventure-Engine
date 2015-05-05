@@ -1,14 +1,14 @@
-package com.mguerrieri.mud.character;
+package com.guerrieri.mud.character;
 
 import java.util.ArrayList;
 import java.util.Hashtable;
 
-import com.mguerrieri.mud.AbstractObject;
-import com.mguerrieri.mud.GameObject;
-import com.mguerrieri.mud.control.Noun;
-import com.mguerrieri.mud.control.Verb;
-import com.mguerrieri.mud.inventory.Item;
-import com.mguerrieri.mud.inventory.Weapon;
+import com.guerrieri.mud.AbstractObject;
+import com.guerrieri.mud.GameObject;
+import com.guerrieri.mud.control.Noun;
+import com.guerrieri.mud.control.Verb;
+import com.guerrieri.mud.inventory.Item;
+import com.guerrieri.mud.inventory.Weapon;
 
 /**
  * Represents any mob in the game.

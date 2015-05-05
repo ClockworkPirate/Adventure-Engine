@@ -1,14 +1,14 @@
-package com.mguerrieri.mud.navigation;
+package com.guerrieri.mud.navigation;
 
 import java.util.ArrayList;
 import java.util.Hashtable;
 import java.util.Set;
 
-import com.mguerrieri.mud.AbstractObject;
-import com.mguerrieri.mud.GameObject;
-import com.mguerrieri.mud.control.Lexicon;
-import com.mguerrieri.mud.control.Noun;
-import com.mguerrieri.mud.control.Verb;
+import com.guerrieri.mud.AbstractObject;
+import com.guerrieri.mud.GameObject;
+import com.guerrieri.mud.control.Lexicon;
+import com.guerrieri.mud.control.Noun;
+import com.guerrieri.mud.control.Verb;
 
 /**
  * The <code>Room</code> class represents areas in the game world (literal rooms in a dungeon, maybe map grids outdoors).

@@ -1,9 +1,9 @@
-package com.mguerrieri.mud.control;
+package com.guerrieri.mud.control;
 
-import com.mguerrieri.mud.character.Player;
-import com.mguerrieri.mud.navigation.Room;
-import com.mguerrieri.mud.ui.Console;
-import com.mguerrieri.mud.ui.UserInterface;
+import com.guerrieri.mud.character.Player;
+import com.guerrieri.mud.navigation.Room;
+import com.guerrieri.mud.ui.Console;
+import com.guerrieri.mud.ui.UserInterface;
 
 /**
  * Represents an instance of the game, in a given state.

@@ -1,4 +1,4 @@
-package com.mguerrieri.mud.control;
+package com.guerrieri.mud.control.lexicon;
 
 import java.util.ArrayList;
 import java.util.Iterator;
