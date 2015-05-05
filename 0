@@ -1,0 +1,185 @@
+<room>
+  <names>
+    <string>Dungeon cell</string>
+  </names>
+  <desc>You are standing in a dank, dark dungeon cell.</desc>
+  <detailedDesc></detailedDesc>
+  <visible>true</visible>
+  <actionResponses/>
+  <objects>
+    <entry>
+      <string>cell door</string>
+      <path>
+        <names>
+          <string>Cell door</string>
+          <string>door</string>
+        </names>
+        <desc>The door is thick iron, with a small barred window at about eye level.</desc>
+        <detailedDesc></detailedDesc>
+        <visible>true</visible>
+        <actionResponses/>
+        <destination>
+          <names>
+            <string>Dungeon hallway</string>
+          </names>
+          <desc>A hallway extends into the darkness in both directions, with burnt-out torches hung every few meters, between doors to cells like yours.</desc>
+          <detailedDesc></detailedDesc>
+          <visible>true</visible>
+          <actionResponses/>
+          <objects>
+            <entry>
+              <string>cell door</string>
+              <path>
+                <names>
+                  <string>Cell door</string>
+                  <string>door</string>
+                </names>
+                <desc>The door to your cell hangs open.</desc>
+                <detailedDesc></detailedDesc>
+                <visible>true</visible>
+                <actionResponses/>
+                <destination reference="../../../../../../../.."/>
+                <destID>0</destID>
+                <passable>true</passable>
+                <destVisible>false</destVisible>
+                <destDesc>Through the open doorway, you see your cell.</destDesc>
+                <moveOutput>You step back into your cell, swinging the door closed behind you.</moveOutput>
+                <lockedOutput></lockedOutput>
+              </path>
+            </entry>
+            <entry>
+              <string>Hallway</string>
+              <path>
+                <names>
+                  <string>Hallway</string>
+                  <string>right</string>
+                </names>
+                <desc></desc>
+                <detailedDesc></detailedDesc>
+                <visible>true</visible>
+                <actionResponses/>
+                <destination>
+                  <names>
+                    <string>Dungeon hallway</string>
+                  </names>
+                  <desc>A hallway extends into the darkness in both directions, with burnt-out torches hung every few meters, between doors to cells like yours.</desc>
+                  <detailedDesc></detailedDesc>
+                  <visible>true</visible>
+                  <actionResponses/>
+                  <objects>
+                    <entry>
+                      <string>Skeleton guard</string>
+                      <com.wedageeks__at__gmail.mud.character.Character>
+                        <names>
+                          <string>Skeleton guard</string>
+                          <string>skeleton</string>
+                          <string>guard</string>
+                        </names>
+                        <desc>An animated skeleton stands nearby, feebly waving its broken sword.</desc>
+                        <detailedDesc></detailedDesc>
+                        <visible>true</visible>
+                        <actionResponses/>
+                        <location reference="../../../.."/>
+                        <deathText>The skeleton&apos;s bones break apart and scatter across the floor as you finish it off.</deathText>
+                        <encounterText>Through the shadows you begin to be able to pick out a dusty skeleton. To your surprise, as you approach, it stands up, brandishing a broken sword.</encounterText>
+                        <encountered>false</encountered>
+                        <hitPoints>10</hitPoints>
+                        <maxHP>10</maxHP>
+                        <AC>10</AC>
+                        <inventory>
+                          <weapon>
+                            <names>
+                              <string>Broken sword</string>
+                            </names>
+                            <desc>An old sword, snapped about a foot above the pommel, lies nearby.</desc>
+                            <detailedDesc></detailedDesc>
+                            <visible>true</visible>
+                            <actionResponses/>
+                            <contents/>
+                            <isContainer>true</isContainer>
+                            <attack>0</attack>
+                            <damageDie>6</damageDie>
+                            <damageBonus>0</damageBonus>
+                          </weapon>
+                        </inventory>
+                        <weapon reference="../inventory/weapon"/>
+                        <state/>
+                      </com.wedageeks__at__gmail.mud.character.Character>
+                    </entry>
+                  </objects>
+                  <id>2</id>
+                </destination>
+                <destID>0</destID>
+                <passable>true</passable>
+                <destVisible>false</destVisible>
+                <destDesc>The hallway continues to the right.</destDesc>
+                <moveOutput>You stumble through the darkness to the right of your cell.</moveOutput>
+                <lockedOutput></lockedOutput>
+              </path>
+            </entry>
+            <entry>
+              <string>Dead end</string>
+              <path>
+                <names>
+                  <string>Dead end</string>
+                  <string>left</string>
+                </names>
+                <desc></desc>
+                <detailedDesc></detailedDesc>
+                <visible>true</visible>
+                <actionResponses/>
+                <destination reference="../../../.."/>
+                <destID>0</destID>
+                <passable>true</passable>
+                <destVisible>false</destVisible>
+                <destDesc>The hallway continues to the left.</destDesc>
+                <moveOutput>Just out of sight of your cell, the hallway&apos;s ceiling has caved in, blocking your path. You turn back.</moveOutput>
+                <lockedOutput></lockedOutput>
+              </path>
+            </entry>
+          </objects>
+          <id>1</id>
+        </destination>
+        <destID>0</destID>
+        <passable>false</passable>
+        <destVisible>true</destVisible>
+        <destDesc>Through the bars, you can make out a dimly lit hallway.</destDesc>
+        <moveOutput>The door scrapes open loudly, flakes of rust falling from the hinges.</moveOutput>
+        <lockedOutput>The door is locked. Maybe the key is somewhere nearby.</lockedOutput>
+      </path>
+    </entry>
+    <entry>
+      <string>Sword</string>
+      <weapon>
+        <names>
+          <string>Sword</string>
+        </names>
+        <desc>An old, rusty sword leans against the wall.</desc>
+        <detailedDesc>Closer inspection reveals a small door along the seam between hilt and pommel.</detailedDesc>
+        <visible>true</visible>
+        <actionResponses/>
+        <location reference="../../../.."/>
+        <contents>
+          <key>
+            <names>
+              <string>Dungeon key</string>
+              <string>key</string>
+            </names>
+            <desc>An ancient-looking key lies discarded on the floor.</desc>
+            <detailedDesc></detailedDesc>
+            <visible>true</visible>
+            <actionResponses/>
+            <contents/>
+            <isContainer>false</isContainer>
+            <opens reference="../../../../../entry/path"/>
+          </key>
+        </contents>
+        <isContainer>true</isContainer>
+        <attack>5</attack>
+        <damageDie>10</damageDie>
+        <damageBonus>0</damageBonus>
+      </weapon>
+    </entry>
+  </objects>
+  <id>0</id>
+</room>
